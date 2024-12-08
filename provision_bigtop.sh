@@ -21,8 +21,13 @@ apt-get update -y
 apt-get install -y \
   hadoop \
   hadoop-hdfs \
+  hadoop-hdfs-namenode \
+  hadoop-hdfs-datanode \
   hadoop-mapreduce \
+  hadoop-mapreduce-historyserver \
   hadoop-yarn \
+  hadoop-yarn-nodemanager \
+  hadoop-yarn-resourcemanager \
   hadoop-client \
   zookeeper \
   hbase \
